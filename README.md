@@ -1,4 +1,4 @@
-# lplayer
+# reader
 
 > A React project
 
