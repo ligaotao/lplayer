@@ -1,19 +1,18 @@
-import MainView from 'views/MainView'
-import FooView from 'views/FooView'
-import BarView from 'views/BarView'
-
+import Login from 'views/Login'
+import index from 'views/index'
+import NewList from 'views/NewList'
 export default [
   {
-    path: '/',
-    component: MainView,
+    path: '/login',
+    component: Login
+  },
+  {
+    path: '/index',
+    component: index,
     childRoutes: [
       {
-        path: '/foo',
-        component: FooView
-      },
-      {
-        path: '/bar',
-        component: BarView
+        path: '/index/new_list',
+        component: NewList
       }
     ]
   }
