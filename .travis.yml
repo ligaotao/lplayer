@@ -3,6 +3,6 @@ node_js:
   - "iojs"
   - "7"
 script:
-    - run build
+    - npm run build
 install:
     - npm install
